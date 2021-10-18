@@ -1,5 +1,5 @@
-# Reload on Breakpoints
-A simple script that reloads when your Site is passing a defined breakpoint.
+# Reload on Breakpoint
+A simple script that reloads when your site is passing a defined breakpoint.
 
 ## Installation
 Install via NPM:
