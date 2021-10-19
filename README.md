@@ -14,6 +14,7 @@ npm install reload-on-breakpoint
 #### javascript
 
 ```javascript
+import ReloadOnBreakpoint from "reload-on-breakpoint";
 
 const bg = new ReloadOnBreakpoint([768, 992, 1200, ...]);
 

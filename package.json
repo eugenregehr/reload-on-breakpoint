@@ -1,6 +1,6 @@
 {
   "name": "reload-on-breakpoint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reloads Page when Breakpoints are triggert",
   "main": "dist/main.js",
   "scripts": {

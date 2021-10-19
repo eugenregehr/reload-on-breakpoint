@@ -7,7 +7,7 @@ module.exports = {
     ignored: /node_modules/,
   },
   entry: {
-    'main': ['./index.js']
+    'main': ['./src/index.js']
   },
   output: {
     filename: '[name].js',
