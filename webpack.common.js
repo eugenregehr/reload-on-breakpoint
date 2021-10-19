@@ -1,21 +1,15 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
-  watch: true,
-  watchOptions: {
-    ignored: /node_modules/,
-  },
   entry: {
-    'main': ['./src/index.js']
+    index: './src/index.js'
   },
   output: {
-    filename: '[name].js',
-    sourceMapFilename: "[name].js.map",
-    path: path.resolve(__dirname, './dist'),
-    publicPath: './dist'
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: './dist',
+    clean: true,
   },
-  devtool: 'source-map',
   module: {
     rules: [
       {

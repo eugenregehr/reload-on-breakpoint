@@ -1,9 +1,9 @@
-class ReloadOnBreakpoint {
+module.exports = class ReloadOnBreakpoint {
 
   currentScreen = Number;
   lastBreakpoint = [];
-  minimum = 0;
-  maximum = 99999
+  minimum = 0; 
+  maximum = 99999 
 
   constructor(breakpoints){
     this.breakpoints = breakpoints;
@@ -59,5 +59,3 @@ class ReloadOnBreakpoint {
     window.addEventListener('resize', () => this.checkBreakpoints(this.between))
   }
 }
-
-export default ReloadOnBreakpoint;
